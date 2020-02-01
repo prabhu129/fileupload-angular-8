@@ -1,0 +1,40 @@
+.dropzone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 200;
+    height: auto;
+    border: 2px dashed #f16624;
+    border-radius: 5px;
+    background: rgb(235, 232, 232);
+    margin: 10px 0;
+  }
+  .dropzone.hovering {
+    border: 2px solid #7fdd62;
+    color: #dadada !important;
+  }
+  .dropzone .file-label {
+    font-size: 1.2em;
+  }
+  
+  progress::-webkit-progress-value {
+    transition: width 0.1s ease;
+  }
+
+
+
+.list-item{
+    min-height: 150px;
+    max-height: 150px;
+    max-width: 50%;
+    border-radius: 3px;
+    background-color: rgb(235, 232, 232);
+    padding: 15px 30px;
+    list-style-type: none;
+    word-break: break-all;
+    overflow-y: scroll;
+}
+.list-item li{
+    line-height: 30px;
+}
